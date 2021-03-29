@@ -28,7 +28,7 @@ public class Main {
                     System.out.println("Вы выйграли");
                     break;
                 } else if (userNumber > randomNumber) System.out.println("Загаданное число меньше");
-                if (randomNumber < userNumber) System.out.println("Загаданное число больше");
+                else if (userNumber < randomNumber) System.out.println("Загаданное число больше");
 
                 if (i == numberOfAttempts) System.out.println("Вы проиграли");
             }
