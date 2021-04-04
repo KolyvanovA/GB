@@ -100,7 +100,7 @@ public class Main {
             System.out.println("Введите координаты в формате X Y");
             x = sc.nextInt() - 1;
             y = sc.nextInt() - 1;
-        } while (!isCellValid(x, y)); // while(isCellValid(x, y) == false)
+        } while (!isCellValid(x, y));
         map[y][x] = DOT_X;
     }
     public static boolean isCellValid(int x, int y) {
