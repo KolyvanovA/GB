@@ -10,7 +10,7 @@ public class Animal {
         this.name = name;
         this.runLimit = runLimit;
         this.swimLimit = swimLimit;
-        Main.quantityAnimal++;
+        Main.QUANTITY_ANIMAL++;
     }
 
     public void swim(int length){

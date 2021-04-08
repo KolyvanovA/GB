@@ -3,7 +3,7 @@ package HomeWorkSix;
 public class Cat extends Animal {
     public Cat(String name) {
         super(name, 200, -1);
-        Main.quantityCat++;
+        Main.QUANTITY_CAT++;
     }
 
     @Override

@@ -4,9 +4,9 @@ import java.util.Random;
 
 public class Main {
 
-    public static int quantityDog = 0;
-    public static int quantityCat = 0;
-    public static int quantityAnimal = 0;
+    public static int QUANTITY_DOG = 0;
+    public static int QUANTITY_CAT = 0;
+    public static int QUANTITY_ANIMAL = 0;
 
     public static void main(String[] args) {
         Random random = new Random();
@@ -21,8 +21,8 @@ public class Main {
             dog.run(random.nextInt(600));
             dog.swim(random.nextInt(20));
         }
-        System.out.println("Создано собак: " + quantityDog);
-        System.out.println("Создано кошек: " + quantityCat);
-        System.out.println("Создано животных: " + quantityAnimal);
+        System.out.println("Создано собак: " + QUANTITY_DOG);
+        System.out.println("Создано кошек: " + QUANTITY_CAT);
+        System.out.println("Создано животных: " + QUANTITY_ANIMAL);
     }
 }
