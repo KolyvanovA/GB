@@ -15,25 +15,25 @@ public class Animal {
 
     public void swim(int length){
         if (length <= 0) {
-            System.out.println("Дистанция для плавания должна быть положительной");
+            System.out.println(name + " Дистанция для плавания должна быть положительной");
             return;
         }
         if (length <= swimLimit) {
-            System.out.println(name+" проплыл "+ length +" м.");
+            System.out.println(name +" проплыл "+ length + " м.");
         } else {
-            System.out.println("Слишком большая дистанция для плавания");
+            System.out.println(name + " Слишком большая дистанция для плавания");
         }
     }
 
     public void run(int length){
         if (length <= 0) {
-            System.out.println("Дистанция для бега должна быть положительной");
+            System.out.println(name + " Дистанция для бега должна быть положительной");
             return;
         }
         if (length <= runLimit) {
-            System.out.println(name+" пробежал "+ length +" м.");
+            System.out.println(name + " пробежал " + length + " м.");
         } else {
-            System.out.println("Слишком большая дистанция для бега");
+            System.out.println(name + " Слишком большая дистанция для бега");
         }
     }
 

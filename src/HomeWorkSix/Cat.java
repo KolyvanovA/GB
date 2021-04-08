@@ -8,6 +8,6 @@ public class Cat extends Animal {
 
     @Override
     public void swim(int length) {
-        System.out.println("Кошка не умеет плавать");
+        System.out.println("Кот № " + Main.QUANTITY_CAT + " не умеет плавать");
     }
 }
